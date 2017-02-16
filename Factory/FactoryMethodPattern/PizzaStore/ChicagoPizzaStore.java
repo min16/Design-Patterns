@@ -1,12 +1,10 @@
 package PizzaStore;
 
-import Pizza.ChicagoStyleCheesePizza;
-import Pizza.Pizza;
+import PizzaMenu.ChicagoStyleCheesePizza;
+import PizzaMenu.Pizza;
 
-/**
- * Created by DevNewbie on 2017-02-15.
- */
-public class ChicagoPizzaStroe extends PizzaStore {
+/* Concrete Creator */
+public class ChicagoPizzaStore extends PizzaStore {
     public Pizza createPizza(String type) {
         if(type.equals("cheese")){
             return new ChicagoStyleCheesePizza();

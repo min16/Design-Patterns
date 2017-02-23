@@ -6,7 +6,7 @@ import Receiver.Fan;
 /**
  * Created by DevNewbie on 2017-02-22.
  */
-public class FanHighCommand implements  Command{
+public class FanHighCommand implements Command{
     Fan fan;
     int prevspeed;
 
